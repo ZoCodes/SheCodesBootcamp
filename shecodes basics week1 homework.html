@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Weather App</title>
+    <!--remember to title your page here ^^-->
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+        margin: 0;
+        padding: 0;
+      }
+      h2 {
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 400;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0px;
+        text-align: center;
+      }
+
+      button:hover {
+        background-color: white;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+      button {
+        display: block;
+        margin: 25px auto;
+        border: 1px solid #1a64d6;
+        background-color: #1a64d6;
+        color: white;
+        font-size: 18px;
+        padding: 18px 26px;
+        border-radius: 35px;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        transition: all 150ms ease-in-out;
+      }
+
+      p {
+        font-size: 18px;
+        font-family: monospace;
+        opacity: 0.7;
+      }
+      .header-image {
+        font-size: 40px;
+      }
+
+      .list-item-one:hover {
+        display: inline-block;
+        background-color: rgb(255, 251, 239);
+        padding: 18px 26px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 251, 239);
+      }
+      .list-item-two:hover {
+        display: inline-block;
+        background-color: rgb(255, 251, 239);
+        padding: 18px 26px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 251, 239);
+      }
+      .list-item-three:hover {
+        display: inline-block;
+        background-color: rgb(255, 251, 239);
+        padding: 18px 26px;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 251, 239);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-image">🌤</div>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2>13° / <strong> 23°</strong></h2>
+    <br />
+
+    <!-- There was no need to clsas them could have just styled the li-->
+    <ul>
+      <div class="list-item-one">
+        <li>
+          <h3>🌧 Tomorrow</h3>
+        </li>
+        <li>
+          <p>10° / <strong> 22°</strong></p>
+        </li>
+      </div>
+
+      <br />
+      <div class="list-item-two">
+        <li>
+          <h3>⛅️ Saturday</h3>
+        </li>
+        <li>
+          <p>15° / <strong>17°</strong></p>
+        </li>
+      </div>
+      <br />
+      <div class="list-item-three">
+        <li>
+          <h3>😎 Sunday</h3>
+        </li>
+        <li>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </div>
+    </ul>
+    <br />
+    <button>Change city</button>
+    <br />
+    <p>Coded by Zoë Blogg</p>
+  </body>
+</html>
